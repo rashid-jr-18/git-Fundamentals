@@ -1,0 +1,203 @@
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/               NTUSER.DAT                                                                                     PrintHood@         Templates@
+ AppData/             Favorites/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        PycharmProjects/   Videos/
+'Application Data'@   IntelGraphicsProfiles/   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Recent@            commands/
+ Contacts/            Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/      ntuser.dat.LOG1
+ Cookies@            'Local Settings'@         NetHood@                                                                                       Searches/          ntuser.dat.LOG2
+ Desktop/             Music/                   OneDrive/                                                                                      SendTo@            ntuser.ini
+ Documents/          'My Documents'@           Pictures/                                                                                     'Start Menu'@       test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~
+$ cd test
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+file4.txt/  newfile.txt  ras.txt  rename.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ rmdir file4.txt
+rmdir: failed to remove 'file4.txt': Directory not empty
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ rmdir -f file4.txt
+rmdir: unknown option -- f
+Try 'rmdir --help' for more information.
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ rmdir -r file4.txt/
+rmdir: unknown option -- r
+Try 'rmdir --help' for more information.
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ rmdir --help
+Usage: rmdir [OPTION]... DIRECTORY...
+Remove the DIRECTORY(ies), if they are empty.
+
+      --ignore-fail-on-non-empty
+                  ignore each failure that is solely because a directory
+                    is non-empty
+  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is
+                    similar to 'rmdir a/b/c a/b a'
+  -v, --verbose   output a diagnostic for every directory processed
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/rmdir>
+or available locally via: info '(coreutils) rmdir invocation'
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cd file4.txt/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test/file4.txt
+$ ls
+newfile.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test/file4.txt
+$ rm newfile.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test/file4.txt
+$ ls
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test/file4.txt
+$ cd ..
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+file4.txt/  newfile.txt  ras.txt  rename.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ rmdir file4.txt/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+newfile.txt  ras.txt  rename.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat newfile.txt
+this is the new file i have create with emoty content
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cp ras.txt newfile.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat ras.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat newfile.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cd
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/               NTUSER.DAT                                                                                     PrintHood@         Templates@
+ AppData/             Favorites/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        PycharmProjects/   Videos/
+'Application Data'@   IntelGraphicsProfiles/   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Recent@            commands/
+ Contacts/            Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/      ntuser.dat.LOG1
+ Cookies@            'Local Settings'@         NetHood@                                                                                       Searches/          ntuser.dat.LOG2
+ Desktop/             Music/                   OneDrive/                                                                                      SendTo@            ntuser.ini
+ Documents/          'My Documents'@           Pictures/                                                                                     'Start Menu'@       test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~
+$ cd test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+newfile.txt  ras.txt  rename.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ mkdir test
+ls
+exit
+
+
+
+
+
+logout
+clear
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+newfile.txt  ras.txt  rename.txt  test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ mv newfile.txt test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+ras.txt  rename.txt  test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls test/
+newfile.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ touch kahir.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ ls
+kahir.txt  ras.txt  rename.txt  test/
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ vim kahir.txt
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat kahir.txt
+fghfsdjgvhgfhcvb cghvgfh
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ grep "rename
+> exit
+> clear
+> ^C
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ grep "rename"
+
+
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat rename.txt | grep "ras"
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat rename.txt
+hellko
+
+am i ok
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ cat rename.txt | grep "ok"
+am i ok
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ df-h
+bash: df-h: command not found
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  176G   59G  117G  34% /
+D:                    301G  109G  192G  37% /d
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ grep r ./*
+grep: ./test: Is a directory
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ grep ok ./*
+./rename.txt:am i ok
+grep: ./test: Is a directory
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$ grep h ./*
+./kahir.txt:fghfsdjgvhgfhcvb cghvgfh
+./rename.txt:hellko
+grep: ./test: Is a directory
+
+Navi Vas@DESKTOP-NGILND1 MINGW64 ~/test
+$
