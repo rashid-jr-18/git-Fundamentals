@@ -140,6 +140,7 @@
 
 
 # keys_s=user.values()
+# print(keys_s)
 
 # print(user['age'])
     
@@ -147,15 +148,52 @@
     
     # collection iterate each elments in list
     
-num=[1,2,3,4,5]
+# num=[1,2,3,4,5]
 # for i in num:
 #   print(i**2)
 
-s_num=[]
-for  i in num:
-       s_num.append(i**2)
+# s_num=[]
+# for  i in num:
+#        s_num.append(i**2)
        
-print(s_num)
-       
+# print(s_num)
+
+
+
+       #  lambda  function task 
+# n=(2,3,4,5,6)
+# even= filter(lambda x:x %2 !=0,n)
+# print(list(even))
+# print(even)
+
+# a= [1,2,3,4]
+# b = map(lambda x: x *2,a)
+# print(list(b))
+
+# from functools import reduce
+
+# a= [1,2,3,4,5]
+# b= reduce(lambda x ,y : x*y,a)
+# print(b)
+
+
+# from functools import lru_cache
+
+# num=lambda n:n if n <=1 else num(n-1)+num(n-2)
+# for i in range(8):
+#     print(num(i),end=" ")
+
+# fact = lambda n : 1 if n==0 else n * fact(n-1)
+
+# print(fact(5))
+
+
+# num = lambda s : s[::-1]
+# print(num("hello"))
+
+
+n= lambda n: int(str(n)[::-1])
+
+print(n(123456))
   
   
